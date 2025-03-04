@@ -9,6 +9,29 @@ body {
   flex-direction: column;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
 img {
   width: 600px;
 }
@@ -18,7 +41,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 8px 16px;
+  margin-top: 12px;
 }
 
 input {
@@ -28,33 +51,7 @@ input {
   width: 400px;
 }
 
-.content {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 16px;
-}
-
-a {
-  text-decoration: none;
-  color: #666;
-}
-
-.header, .footer {
-display: flex;
-justify-content: space-between;
-padding: 16px;
-}
-
 .footer {
-  background-color: #eee;
-}
-
-ul {
   display: flex;
-  list-style: none;
-  gap: 16px;
-  margin: 0;
-  padding: 0;
+  justify-content: space-between;
 }
